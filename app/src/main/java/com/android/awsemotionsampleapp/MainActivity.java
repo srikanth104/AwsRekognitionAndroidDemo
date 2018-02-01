@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             // Initialize the Amazon Cognito credentials provider
             CognitoCachingCredentialsProvider credentialsProvider = new CognitoCachingCredentialsProvider(
                     getApplicationContext(),
-                    "us-east-2:eab80a5a-10a1-4306-819f-3e7982f786c2", // Identity Pool ID
+                    "XXXXXXXXXXXXXXXXXXXXXX", // Please update Identity Pool ID before you run the applicationgit p
                     Regions.US_EAST_2 // Region
             );
 
